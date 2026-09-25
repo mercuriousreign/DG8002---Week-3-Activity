@@ -4,7 +4,7 @@
 
 # DG8002 - F26 - Activity 3
 # Author Name: Zaima Atoshi
-# Date: 
+# Date: September 25, 
 
 # SCENARIO
 # You are converting Canadian dollars (CAD) into US dollars (USD).
@@ -23,7 +23,7 @@ result = cad * rate
 
 # TODO 4: Print a clear message showing the CAD amount and the USD result.
 
-print (str(cad) + " Converstion to usd is " + str(result))
+print (str(cad) + " converted is " + str(int(result)) + "usd")
 
 # CHECK YOUR WORK
 # 100 CAD should convert to 72 USD.
