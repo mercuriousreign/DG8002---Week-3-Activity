@@ -3,7 +3,7 @@
 # Run this file to check your result.  
 
 # DG8002 - F26 - Activity 3
-# Author Name: 
+# Author Name: Zaima Atoshi
 # Date: 
 
 # SCENARIO
@@ -12,12 +12,18 @@
 # Start by converting 100 CAD. You may change the CAD amount to test your code.
 
 # TODO 1: Create a variable for the amount in CAD and assign it the value 100.
+cad = 100
 
 # TODO 2: Create a variable for the exchange rate and assign it the value 0.72.
+rate = 0.72
 
 # TODO 3: Calculate the amount in USD and store it in a new variable.
 
+result = cad * rate
+
 # TODO 4: Print a clear message showing the CAD amount and the USD result.
+
+print (str(cad) + " Converstion to usd is " + str(result))
 
 # CHECK YOUR WORK
 # 100 CAD should convert to 72 USD.
