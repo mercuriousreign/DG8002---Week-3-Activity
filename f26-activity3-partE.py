@@ -34,7 +34,7 @@ time = distance / speed
 
 # TODO 3: Calculate the total fuel needed in LITRES.
 # Hint: fuel efficiency describes litres used for every 100 km.
-totalfuel = float(distance/100)/efficiency
+totalfuel = float(distance/100)*efficiency
 
 # TODO 4: Calculate the total fuel cost.
 cost = totalfuel * price
