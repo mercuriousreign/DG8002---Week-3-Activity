@@ -57,11 +57,11 @@ else:
 #   - Fuel cost per passenger (CAD), when it can be calculated
 
 summary = """
-Summary :
-- Estimated driving time {0}
-- Total fuel needed {1}
-- Total fuel cost {2:.2f}
-- Total cost per passanger {3:.2f}""".format(time, totalfuel, cost, result)
+Summary:
+- Estimated driving time {0} hours
+- Total fuel needed {1:n} liters
+- Total fuel cost ${2:.2f}
+- Total cost per passanger ${3:.2f}""".format(time, totalfuel, cost, result)
 print(summary)
 
 # CHECK YOUR WORK
