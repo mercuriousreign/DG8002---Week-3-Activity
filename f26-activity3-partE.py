@@ -60,8 +60,8 @@ summary = """
 Summary :
 - Estimated driving time {0}
 - Total fuel needed {1}
-- Total fuel cost {2}
-- Total cost per passanger {3}""".format(time,totalfuel,cost,result)
+- Total fuel cost {2:.2f}
+- Total cost per passanger {3:.2f}""".format(time, totalfuel, cost, result)
 print(summary)
 
 # CHECK YOUR WORK
