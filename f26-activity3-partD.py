@@ -2,8 +2,8 @@
 # Run this file to check your result.  
 
 # DG8002 - F26 - Activity 3
-# Author Name: 
-# Date: 
+# Author Name: Zaima Atoshi
+# Date: September 27, 2026
 
 # SCENARIO
 # Calculate SIMPLE interest on an investment. This exercise does not use
@@ -15,13 +15,20 @@
 # Time: 3 years
 
 # TODO 1: Create variables for the principal, annual interest rate, and time.
+principal  = 1000.00
+rate = 0.05
+time = int(input("Type in the time: "))
 
 # TODO 2: Calculate the interest earned using the formula above.
+interest = principal * rate * time
 
 # TODO 3: Calculate the final investment value (principal + interest).
+result = float(principal + interest)
 
 # TODO 4: Print the starting investment, interest earned, and final value.
 # Optional: Format money to two decimal places.
+
+print("The final simple interest of the investment is: $"+ str(result))
 
 # CHECK YOUR WORK
 # Interest earned: $150.00
