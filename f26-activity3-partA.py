@@ -24,7 +24,7 @@ result = cad * rate
 
 # TODO 4: Print a clear message showing the CAD amount and the USD result.
 
-print (str(cad) + " converted is " + str(int(result)) + "usd")
+print ("$"+str(cad) + " CAD converted is " + "$"+ str(int(result)) + " USD")
 
 # CHECK YOUR WORK
 # 100 CAD should convert to 72 USD.
