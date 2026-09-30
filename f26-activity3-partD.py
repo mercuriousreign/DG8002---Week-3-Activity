@@ -23,12 +23,12 @@ time = int(input("Type in the time: "))
 interest = principal * rate * time
 
 # TODO 3: Calculate the final investment value (principal + interest).
-result = float(principal + interest)
+result = principal + interest
 
 # TODO 4: Print the starting investment, interest earned, and final value.
 # Optional: Format money to two decimal places.
-
-print("The final simple interest of the investment is: $"+ str(result))
+print ("Interest earned: ${:,.2f}".format(interest))
+print("The final simple interest of the investment is: ${:,.2f}".format(result))
 
 # CHECK YOUR WORK
 # Interest earned: $150.00
