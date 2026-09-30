@@ -19,8 +19,7 @@
 # TODO 1: Create five variables to store the trip information above.
 # Give each variable a meaningful name.
 
-# distance = input("type the distance")
-# speed = input("type speed per hour")
+
 distance = 650
 speed = 100
 efficiency = 8
@@ -47,7 +46,7 @@ if passengers > 0:
   result = cost / passengers
   #print ("fuel cost per passanger is: $" + str(result))
 else:
-  print ("error invalid passanger number")
+  print ("error invalid passenger number")
 
 
 # TODO 6: Print a readable trip summary showing:
@@ -61,7 +60,7 @@ Summary:
 - Estimated driving time {0} hours
 - Total fuel needed {1:n} liters
 - Total fuel cost ${2:.2f}
-- Total cost per passanger ${3:.2f}""".format(time, totalfuel, cost, result)
+- Total cost per passenger ${3:.2f}""".format(time, totalfuel, cost, result)
 print(summary)
 
 # CHECK YOUR WORK
