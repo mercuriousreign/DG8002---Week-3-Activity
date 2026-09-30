@@ -65,9 +65,9 @@ else:
 
 summary = """
 Summary:
-- Estimated driving time {0} hours
+- Estimated driving time: {0} hours
 - Total fuel needed {1:n} liters
-- Total fuel cost ${2:.2f}
+- Total fuel cost: ${2:.2f}
 {3}""".format(time, totalfuel, cost, message)
 
 
