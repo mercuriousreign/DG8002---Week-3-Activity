@@ -30,7 +30,7 @@ speed = 100
 efficiency = 8
 price = 1.55
 passengers = 3
-
+perpassanger = 0
 
 # TODO 2: Calculate estimated driving time in HOURS.
 # Hint: distance / average speed
@@ -48,10 +48,13 @@ cost = totalfuel * price
 # If passengers is zero or less, print a helpful message instead.
 
 if passengers > 0:
-  result = cost / passengers
+  perpassanger = cost / passengers
+  message = "- Total cost per passenger ${:.2f}".format(perpassanger)
   #print ("fuel cost per passanger is: $" + str(result))
+
 else:
-  print ("error invalid passenger number")
+  message =""
+  print ("Error invalid passenger number")
 
 
 # TODO 6: Print a readable trip summary showing:
@@ -61,12 +64,13 @@ else:
 #   - Fuel cost per passenger (CAD), when it can be calculated
 
 summary = """
-
 Summary:
 - Estimated driving time {0} hours
 - Total fuel needed {1:n} liters
 - Total fuel cost ${2:.2f}
-- Total cost per passenger ${3:.2f}""".format(time, totalfuel, cost, result)
+{3}""".format(time, totalfuel, cost, message)
+
+
 print(summary)
 
 # CHECK YOUR WORK
