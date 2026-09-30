@@ -19,12 +19,17 @@
 # TODO 1: Create five variables to store the trip information above.
 # Give each variable a meaningful name.
 
+distance = input("type the distance")
+speed = input("type speed per hour")
+efficiency = input("type efficiency")
+price = input("type fuel price per hour")
+passengers = input("type number of passenger")
 
-distance = 650
-speed = 100
-efficiency = 8
-price = 1.55
-passengers = 3
+# distance = 650
+# speed = 100
+# efficiency = 8
+# price = 1.55
+# passengers = 3
 
 
 # TODO 2: Calculate estimated driving time in HOURS.
