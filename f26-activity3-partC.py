@@ -16,7 +16,7 @@
 # TODO 1: Create variables for the meal cost, tip rate, and number of people.
 meal = 80
 rate = 0.18
-people = int(input("Type the number of people at this table: "))
+people = 4
 
 # TODO 2: Calculate the dollar amount of the tip.
 tip = meal * rate

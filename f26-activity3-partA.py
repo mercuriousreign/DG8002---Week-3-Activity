@@ -12,6 +12,7 @@
 # Start by converting 100 CAD. You may change the CAD amount to test your code.
 
 # TODO 1: Create a variable for the amount in CAD and assign it the value 100.
+#cad = input("Type in the canadian amount to convert")
 cad = 100
 
 # TODO 2: Create a variable for the exchange rate and assign it the value 0.72.

@@ -15,9 +15,13 @@
 # Time: 3 years
 
 # TODO 1: Create variables for the principal, annual interest rate, and time.
-principal  = 1000.00
+# principal  = 1000.00
+# rate = 0.05
+# principal  = input("Type in the principal")
+principal = 1000
 rate = 0.05
-time = int(input("Type in the time: "))
+time = 3
+# time = int(input("Type in the time: "))
 
 # TODO 2: Calculate the interest earned using the formula above.
 interest = principal * rate * time
