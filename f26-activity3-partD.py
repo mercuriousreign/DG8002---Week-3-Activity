@@ -31,8 +31,9 @@ result = principal + interest
 
 # TODO 4: Print the starting investment, interest earned, and final value.
 # Optional: Format money to two decimal places.
+print("The starting investment is $".format(principal))
 print ("Interest earned: ${:,.2f}".format(interest))
-print("The final simple interest of the investment is: ${:,.2f}".format(result))
+print("Final Value: ${:,.2f}".format(result))
 
 # CHECK YOUR WORK
 # Interest earned: $150.00
